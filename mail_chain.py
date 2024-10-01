@@ -62,7 +62,6 @@ def thread(alice, bob, length):
 	msgids = []
 	for i in range(length):
 		msgid = generate_message_id()
-		#subject = f'Lorem Ipsum [{i // 2 + 1}/{length // 2}]'
 		subject = f'Lorem Ipsum [{i + 1}/{length}]'
 
 		msg = EmailMessage()
